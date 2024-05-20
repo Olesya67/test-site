@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conquered by God</title>
+</head>
+<style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+}
+.a{
+        position: static;
+}
+.a1 {
+        width: 100%;
+        z-index: 1;
+}
+.a2 {
+        width: 20%;
+        z-index: 5;
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        border-radius: 70%;
+        border: 5px solid white;
+}
+.a3 {
+        background-color: #660000;
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        top: 85%;
+        z-index: 1;
+
+}
+.a4 {
+        color: white;
+        font-size: 350%;
+        text-align: center;
+        position: relative;
+        top: 40%;
+}
+.a5 {
+        color: white;
+        font-size: 200%;
+        text-align: center;
+        position: relative;
+        top: 42%;
+}
+.b {
+        background-color: #336633;
+        width: 100%;
+        height: 140%;
+        position: absolute;
+        top: 105%;
+}
+.b1 {
+        width: 30%;
+        position: absolute;
+        left: 35%;
+        top: 18%;
+}
+.b2 {
+        text-align: center;
+        color: white;
+        font-size: 500%;
+        position: relative;
+        top: 60%;
+
+}
+.b3 {
+        text-align: center;
+        color: white;
+        font-size: 400%;
+        position: relative;
+        top: 62%;
+
+}
+.c {
+        background-color: #339933;
+        position: absolute;
+        top: 240%;
+        width: 100%;
+        height: 170%;
+}
+.c1 {
+        color: white;
+        position: relative;
+        top: 15%;
+        height: 60%;
+}
+.c2 {
+        text-align: center;
+        font-size: 400%;
+        position: relative;
+        
+}
+.c3 {
+        text-align: center;
+        font-size: 200%;
+        position: relative;
+        top: 10%;
+}
+.c4 {
+        position: absolute;
+        display: table;
+        width: 100%;
+        height: 300px;
+
+}
+.c5 {
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        position: relative;
+        left: 7%;
+        
+}
+.c5 img{
+        width: 300px;
+        height: 300px;
+        object-fit:cover;
+        position: relative;
+        top: 10%;
+
+}
+.c6 {
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        position: relative;
+        left: -16%;
+        
+}
+.c6 img{
+        width: 300px;
+        height: 300px;
+        object-fit:cover;
+        position: relative;
+        top: 10%;
+
+}
+.c7 {
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        position: relative;
+        left: -7%;
+        
+}
+.c7 img{
+        width: 300px;
+        height: 300px;
+        object-fit:cover;
+        position: relative;
+        top: 10%;
+
+}
+.d {
+        background-color: #660000;
+        width: 100%;
+        height: 870%;
+        position: absolute;
+        top: 410%;
+}
+.d1 {
+        color: white;
+        font-size: 400%;
+        text-align: center;
+        position: relative;
+        top: 3%;
+}
+.d2 {
+        position: relative;
+        top: 5%;
+}
+.d3 {
+        color: white;
+        font-size: 250%;
+        text-align: left;
+        position: relative;
+        left: 20%; 
+}
+.d4 {
+        color: white;
+        font-size: 200%;
+        text-align: left;
+        position: relative;
+        left: 20%; 
+}
+.d5 {
+        position: relative;
+        left: 55%;
+        width: 30%; 
+}
+.d6 {
+        color: white;
+        position: relative;
+        left: 60%;
+        top: 2%;
+}
+.d8 {
+        font-size: 180%;
+}
+.d9 {
+        width: 40%;
+        position: relative;
+        top: -5%;
+        left: 10%;
+}
+.d10 {
+        color: white;
+        position: relative;
+        left: 18%;
+        top: -2%;
+}
+.d12 {
+        font-size: 180%;
+}
+.d14 {
+        color: white;
+        position: relative;
+        left: 60%;
+        top: -3%;
+}
+.d15 {
+        color: white;
+        position: relative;
+        left: 18%;
+        top: -5%;
+}
+.d13 {
+        position: relative;
+        left: 60%;
+        top: -5%;
+        width: 40%;
+}
+.d16 {
+        width: 40%;
+        position: relative;
+        top: -8%;
+        left: 13%;
+}
+.d17 {
+        width: 45%;
+        position: relative;
+        top: -10%;
+        left: 55%;
+}
+.d18 {
+        color: white;
+        position: relative;
+        left: 55%;
+        top: -6%;
+}
+.d19 {
+        width: 45%;
+        position: relative;
+        top: -10%;
+        left: 13%;
+}
+.d20 {
+        color: white;
+        position: relative;
+        left: 18%;
+        top: -8%;
+}
+.d21 {
+        width: 45%;
+        position: relative;
+        top: -15%;
+        left: 55%;
+}
+.d22 {
+        color: white;
+        position: relative;
+        left: 55%;
+        top: -12%;
+}
+.d23 {
+        width: 45%;
+        position: relative;
+        top: -20%;
+        left: 7%;
+}
+.w {
+        background-color: #006633;
+        width: 100%;
+        height: 80%;
+        position: absolute;
+        top: 1150%;
+}
+.w1 {
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 20%;
+}
+.w2 {
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 35%;
+        font-size: 150%;
+}
+.w3 {
+        background-color: black;
+        color: white;
+        width: 20%;
+        height: 10%;
+        border-radius: 500px;
+        position: relative;
+        top: 50%;
+        left: 40%;
+}
+.w3:hover {
+        color: black;
+        background-color: white;
+}
+.e {
+        background-color: #660000;
+        width: 100%;
+        height: 700%;
+        position: absolute;
+        top: 1250%;
+}
+.e1 {
+        color: white;
+        font-size: 400%;
+        text-align: center;
+}
+.e2 {
+        color: white;
+        font-size: 200%;
+        text-align: center;
+        position: relative;
+        top: 2%;
+}
+.e3 {
+        position: absolute;
+        top: 1300%;
+}
+.e4 {
+        width: 20%;
+        margin: 2%;
+}
+.e5 {
+        position: absolute;
+        top: 1375%;
+        display: table;
+
+}
+.e6 {
+        display: table-cell;
+        color: white;
+        font-size: 130%;
+        text-align: center;
+        position: relative;
+        left: 5%;
+        
+}
+.e7 {
+        position: relative;
+        left: 25%;
+}
+.e8 {
+        position: relative;
+        left: 45%;
+}
+.e9 {
+        position: relative;
+        left: 60%;
+}
+.e10 {
+        position: absolute;
+        top: 1425%;
+}
+.e11 {
+        width: 20%;
+        margin: 2%;
+}
+.e12 {
+        position: absolute;
+        top: 1500%;
+        display: table;
+
+}
+.e13 {
+        display: table-cell;
+        color: white;
+        font-size: 130%;
+        text-align: center;
+        position: relative;
+        left: 7%;
+        
+}
+.e14 {
+        position: relative;
+        left: 25%;
+}
+.e15 {
+        position: relative;
+        left: 47%;
+}
+.e16 {
+        position: relative;
+        left: 70%;
+}
+.e18 {
+        width: 20%;
+        margin: 2%;
+}
+.e17 {
+        position: absolute;
+        top: 1545%;
+}
+.e19 {
+        position: absolute;
+        top: 1620%;
+        display: table;
+}
+.e20 {
+        display: table-cell;
+        color: white;
+        font-size: 130%;
+        text-align: center;
+        position: relative;
+        left: 30%;
+        
+}
+.e21 {
+        position: relative;
+        left: 95%;
+}
+.e22 {
+        width: 100%;
+        position: absolute;
+        top: 1670%;
+}
+.e23 {
+        position: absolute;
+        left: 5%;
+        top: 1810%;
+        z-index: 4;
+        font-size: 500%;
+        color: white;
+}
+.s {
+        background-color: #006633;
+        width: 100%;
+        height: 170%;
+        position: absolute;
+        top: 1850%;
+}
+.s1{
+        font-size: 500%;
+        text-align: center;
+        position: relative;
+        top: 7%;
+}
+.s2{
+        display: table;
+        position: relative;
+        top: 15%;
+}
+.s3 {
+        display: table-cell;
+        color: white;
+        font-size: 160%;
+        text-align: center;
+        position: relative;
+        left: 10%;
+        background-color: black;
+        width: 500px;
+        height: 250px;
+        
+}
+.s4 {
+        position: relative;
+        top: 10%;
+}
+.s7 {
+        position: relative;
+        left: 25%;
+}
+.s5 {
+        font-size: 120%;
+        position: relative;
+        top: 20%;
+        left: 7%;
+}
+.s6 {
+        font-size: 120%;
+        position: relative;
+        top: 17%;
+        left: 57%;
+}
+.s12 {
+        display: table;
+        position: relative;
+        top: 25%;
+}
+.s8 {
+        display: table-cell;
+        color: white;
+        font-size: 160%;
+        text-align: center;
+        position: relative;
+        left: 10%;
+        background-color: black;
+        width: 500px;
+        height: 250px;
+
+}
+.s9 {
+        position: relative;
+        top: 10%;
+}
+.s10 {
+        position: relative;
+        left: 25%;
+}
+.s13 {
+        font-size: 120%;
+        position: relative;
+        top: 28%;
+        left: 7%;
+}
+.s11 {
+        font-size: 120%;
+        position: relative;
+        top: 26%;
+        left: 57%;
+}
+.f {
+        background-color: #660000;
+        position: absolute;
+        top: 2020%;
+        width: 100%;
+        height: 90%;
+}
+.f1 {
+        color: white;
+        text-align: center;
+        font-size: 300%;
+        position: relative;
+        top: 20%;
+}
+.f2 {
+        color: white;
+        text-align: center;
+        font-size: 200%;
+        position: relative;
+        top: 25%;
+}
+.f4 {
+        position: relative;
+        top: 30%;
+        left: 15%;
+        color: white;
+}
+.f5 {
+        width: 65%;
+
+}
+.f6 {
+        width: 65%;
+        height: 30%;
+        
+}
+.f7 {
+        position: relative;
+        top: 33%;
+        left: 12%;
+        color: white;
+}
+.f8 {
+       background-color: black;
+        color: white;
+        width: 10%;
+        height: 5%;
+        border-radius: 500px;
+        position: relative;
+        top: 40%;
+        left: 45%; 
+}
+.f9 {
+        text-align: center;
+        color: white;
+        font-size: 150%;
+        position: relative;
+        top: 50%;
+}
+</style>
+<body>
+    <div class="a">
+        <div>
+            <img src="изображения/Без названия42_20240410101821.png" class="a1">
+        </div>
+        <div class="a3">
+            <h1 class="a4">Conquered by God</h1>
+            <p class="a5">Игра, которая вызовет тысячу мурашек!</p>
+            <p class="a5">Твоей голове будет от того, что там будет происходить!</p>
+        </div>
+        <img src="изображения/IMG_20240411_152102_822.png" class="a2">
+    </div>
+    <div class="b">
+        <img src="изображения/IMG_20240411_152102_822.png" class="b1">
+        <h1 class="b2">Наш слоган:</h1>
+        <p class="b3">Побеждённый богом</p>
+        <p class="b3">не проигрывает</p>
+    </div>
+    <div class="c">
+        <div class="c1">
+            <h1 class="c2">Conquered by God</h1>
+            <p class="c3">Игра расказывает, как журналист решил быстро</p>
+            <p class="c3">подняться по карьерной лестнеце. Уежаея в другую</p>
+            <p class="c3">стану, чтоб раскрыть дело, которое никто не мог</p>
+            <p class="c3">раскрыть, узнать куда пропали люди.</p>
+            <p class="c3">Тоько единицы могут понять и узнать что же всё-</p>
+            <p class="c3">таки случилось в этой деревне.</p>
+        </div>
+        <p class="c4">
+            <div class="c5">
+                <img src="изображения/Без названия51_20240416232829.png">
+            </div>
+            <div class="c6">
+                <img src="изображения/IMG_20240414_200801_237.png">
+            </div>
+            <div class="c7">
+                <img src="изображения/2.jpg">
+            </div>
+        </p>
+    </div>
+    <div class="d">
+        <h1 class="d1">Наши любимые герои в игре!</h1>
+        <div class="d2">
+            <h1 class="d3">Руслан</h1>
+            <p class="d4">Амбициозный,</p>
+            <p class="d4">целеустремленный</p>
+            <p class="d4">сильный характер.</p>
+        </div>
+        <img src="изображения/1.png" class="d5">
+        <div class="d6">
+            <h1 class="d7">Мэй Син (жена химика),</h1>
+            <h1 class="d7">Чжоу Гочжи (химик)</h1>
+            <p class="d8"><b>Жена:</b> добрая, умная,</p>
+            <p class="d8">любит помогать люям,</p>
+            <p class="d8">ищет лекарства с мужем от</p>
+            <p class="d8">рака.</p>
+            <p class="d8"><b>Муж:</b> обожает свою работу,</p>
+            <p class="d8">готов всю жизнь посвятить</p>
+            <p class="d8">изучению химии.</p>
+        </div>
+        <img src="изображения/3.png" class="d9">
+        <div class="d10">
+            <h1 class="d11">Борис (друг Руслана)</h1>
+            <p class="d12">Замкнутый, не хочет</p>
+            <p class="d12">развиваться, ждёт чуда, слабак</p>
+        </div>
+        <img src="изображения/4.png" class="d13">
+        <div class="d14">
+            <h1>Ли Том (преступник)</h1>
+            <p class="d12">Несчастный, потерял всё из-за</p>
+            <p class="d12">своей болезни,</p>
+            <p class="d12">любит свою семью,</p>
+            <p class="d12">потерял смысл жизни.</p>
+        </div>
+        <img src="изображения/5.png" class="d16">
+        <div class="d15">
+            <h1>Света (жена преступник)</h1>
+            <p class="d12">Любит мужа, добрая, милая,</p>
+            <p class="d12">беспокоится за мужа.</p>
+        </div>
+        <img src="изображения/6.png" class="d17">
+        <div class="d18">
+            <h1>Цзямо Фу (учитель математики)</h1>
+            <p class="d12">Ненавидит свою работу, очень</p>
+            <p class="d12">ранимый, хочет стать</p>
+            <p class="d12">счастливым, требовательный.</p>
+        </div>
+        <img src="изображения/7.png" class="d19">
+        <div class="d20">
+            <h1>Рома иЛиза (дети Тома)</h1>
+            <p class="d12"><b>Рома:</b> любит играть</p>
+            <p class="d12">в футбол, радостный</p>
+            <p class="d12">уважает родителей,</p>
+            <p class="d12">дружелюбный.</p>
+            <p class="d12"><b>Лиза: </b>замкнутая,</p>
+            <p class="d12">добрая, любит учиться.</p>
+        </div>
+        <img src="изображения/8.png" class="d21">
+        <div class="d22">
+            <h1>Саша и Вика (дети Тома)</h1>
+            <p class="d12"><b>Вика:</b> трудолюбивая,</p>
+            <p class="d12">задумчивая, умная,</p>
+            <p class="d12">любит головоломки,</p>
+            <p class="d12">позитивная.</p>
+            <p class="d12"><b>Саша:</b> добрый готов</p>
+            <p class="d12">помогать всем,</p>
+            <p class="d12">яркий.</p>
+
+        </div>
+        <img src="изображения/9.png" class="d23">
+    </div>
+    <div class="w">
+        <h1 class="w1">ВАШИ ПРЕДЛОЖЕНИЯ</h1>
+        <p class="w2">Нажимай если у тебя есть новые предложения, мы с</p>
+        <p class="w2">удовольствием примем!</p>
+        <button type="button" class="w3">Жми на меня</button>
+    </div>
+    <div class="e">
+        <h1 class="e1">НАША КОМАНДА</h1>
+        <p class="e2">Те, кто уважаетдруг друга, кто могут сработаться, те,</p>
+        <p class="e2">кто сидел часами над этим проектом!</p>
+        <p class="e2">Мы стали командой!</p>
+    </div>
+    <div class="e3">
+        <img src="изображения/photo_5350411584817716113_y.jpg" class="e4">
+        <img src="изображения/photo_5350411584817716112_y.jpg" class="e4">
+        <img src="изображения/photo_5348068057387488882_y.jpg" class="e4">
+        <img src="изображения/photo_5350411584817716114_y.jpg" class="e4">
+    </div>
+    <div class="e5">
+        <div class="e6">
+            <b>Ляйля</b>
+            <b>Ривгановна</b>
+            <p>Наставник</p>
+            <p>команды!</p>
+            <p>С нестандартным</p>
+            <p>творческим мышлением,</p>
+            <p>умеет</p>
+            <p>координировать</p>
+            <p>деятельность</p>
+            <p>коллектива;</p>
+            <p>объективна.</p>
+        </div>
+    
+        <div class="e6 e7">
+            <b>Иванова</b>
+            <b>Полина</b>
+            <p>Помощник-</p>
+            <p>наставника!</p>
+            <p>Умеет</p>
+            <p>рассстовлять</p>
+            <p>приоритеты,</p>
+            <p>вести</p>
+            <p>переговоры,</p>
+            <p>работать в</p>
+            <p>режиме</p>
+            <p>многозадачности.</p>
+        </div>
+    
+        <div class="e6 e8">
+            <b>Сальникова</b>
+            <b>Полина</b>
+            <p>Главный граф-</p>
+            <p>дизайнер!</p>
+            <p>Скромна, яркая,</p>
+            <p>коммуникабельнная,</p>
+            <p>творческое</p>
+            <p>мышление</p>
+        </div>
+    
+    
+        <div class="e6 e9">
+            <b>Урванцева</b>
+            <b>Анастасия</b>
+            <p>Смелая,</p>
+            <p>позитивная,</p>
+            <p>отзывчивая</p>
+        </div>
+    </div>
+    <div class="e10">
+        <img src="изображения/photo_5350411584817716115_y.jpg" class="e11">
+        <img src="изображения/photo_5350411584817716116_y.jpg" class="e11">
+        <img src="изображения/photo_5350411584817716117_y.jpg" class="e11">
+        <img src="изображения/photo_5350411584817716118_y.jpg" class="e11">
+    </div>
+    <div class="e12">
+        <div class="e13">
+            <b>Анисимова</b>
+            <b>Кристина</b>
+            <p>Капитан команды!</p>
+            <p>Организованная,</p>
+            <p>есть упорство;</p>
+            <p>умение</p>
+            <p>сформировать и</p>
+            <p>организовать</p>
+            <p>команду;</p>
+            <p>стрессоустойчивая.</p>
+        </div>
+        <div class="e13 e14">
+            <b>Малышева</b>
+            <b>Виталия</b>
+            <p>Классная,</p>
+            <p>объективная,</p>
+            <p>умная,</p>
+            <p>позитивная.</p>
+        </div>
+        <div class="e13 e15">
+            <b>Падерина</b>
+            <b>Диана</b>
+            <p>Аналитик,</p>
+            <p>гибкость,</p>
+            <p>скорость</p>
+            <p>усвоения новых</p>
+            <p>знаний.</p>
+        </div>
+        <div class="e13 e16">
+            <b>Охотина</b>
+            <b>Полина</b>
+            <p>Заботливая,</p>
+            <p>поднимает</p>
+            <p>настроение,</p>
+            <p>целеустремлённая.</p>
+        </div>
+    </div>
+    <div class="e17">
+        <img src="изображения/photo_5350411584817716119_y.jpg" class="e18">
+        <img src="изображения/photo_5350411584817716120_y.jpg" class="e18">
+        
+    </div>
+    <div class="e19">
+        <div class="e20">
+            <b>Глухова Олеся</b>
+            <p>добрая, умная,</p>
+            <p>пунктуальная,</p>
+            <p>ответственная,</p>
+            <p>практичная.</p>
+        </div>
+        <div class="e20 e21">
+            <b>Заева Софья</b>
+            <p>Креативная,</p>
+            <p>смелая,</p>
+            <p>жизнерадостная,</p>
+            <p>умеет работать </p>
+            <p>в команде,</p>
+            <p>командный</p>
+            <p>игрок.</p>
+        </div>
+
+    </div>
+    <img src="изображения/photo_5350319857201175039_y.jpg" class="e22">
+    <p class="e23">Наша команда</p>
+    <div class="s">
+        <h1 class="s1">Отзывы наших клиентов</h1>
+        <div class="s2">
+            <div class="s3">
+                <p class="s4">Очень необычная, сложная и</p>
+                <p class="s4">затягивающая игрушка в</p>
+                <p class="s4">которую играют в данный</p>
+                <p class="s4">момент. Решают над заданиями и</p>
+                <p class="s4">делятся своими успехами.</p>
+                <p class="s4">Спасибо тем кто создал эту игру.</p>
+            </div>
+            <div class="s3 s7">
+                <p class="s4">По мне, так эта игра довольно</p>
+                <p class="s4">хороша собой!</p>
+                <p class="s4">Мне безумно нравиться эта игра!!!</p>
+                <p class="s4">Яркие краски, приятные на вид</p>
+                <p class="s4">герои. Как-будто погружаешься в</p>
+                <p class="s4">ту реальность!</p>
+            </div>
+        </div>
+        <p class="s5">Кузницова Мария</p>
+        <p class="s6">Широбоков Дмитрий</p>
+        <div class="s12">
+            <div class="s8">
+                <p class="s9">Я считаю, что этуигру нужно</p>
+                <p class="s9">занести в список топ самых</p>
+                <p class="s9">популярных игр. Все мои друзья в</p>
+                <p class="s9">неё играют. Мы играли в неё даже</p>
+                <p class="s9">вместе с друзьями. Я всем</p>
+                <p class="s9">рекомендую играть в эту игру!</p>
+                <p class="s9">Ставлю оценку 10!</p>
+            </div>
+            <div class="s8 s10">
+                <p class="s9">Игра замечательная. Мой опыт</p>
+                <p class="s9">показал, чтоесли вы едете на</p>
+                <p class="s9">большие расстояния, ждёте</p>
+                <p class="s9">очередь в больницу или скучаете</p>
+                <p class="s9">на парах. Просто отличное</p>
+                <p class="s9">средство для сокращения</p>
+                <p class="s9">времени ожидания.</p>
+            </div>
+            
+        </div>
+        <p class="s13">Кабачков Максим</p>
+        <p class="s11">Смоленская Ирина</p>
+    </div>
+    <div class="f">
+        <h1 class="f1">Если у вас есть вопросы:</h1>
+        <div class="f2">
+            <p class="f3">Вы можете спокойно их адавать и в ближаешеевремя</p>
+            <p class="f3">админестрация сайта ответит вам.</p>
+        </div>
+        <form class="f4">
+        <p>Email: <input class="f5"></p>
+
+        </form>
+        <form class="f7">
+            <p>Ваш вопрос: <input class="f6"></p>
+        </form>
+        <button type="button" class="f8">Отправить</button>
+        <p class="f9"><b>телефон:</b> +7 9129-89-58</p>
+    </div>
+</body>
+</html>
